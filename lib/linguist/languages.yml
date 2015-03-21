@@ -10,7 +10,7 @@
 # extensions        - An Array of associated extensions (the first one is
 #                     considered the primary extension)
 # interpreters      - An Array of associated interpreters
-# searchable        - Boolean flag to enable searching (defaults to true)
+# searchable        - Boolean flag to enable svimrearching (defaults to true)
 # search_term       - Deprecated: Some languages maybe indexed under a
 #                     different alias. Avoid defining new exceptions.
 # color             - CSS hex color to represent the language.
@@ -3210,6 +3210,8 @@ VimL:
   - _vimrc
   - gvimrc
   - vimrc
+  - .nvimrc
+  - nvimrc
   ace_mode: text
 
 Visual Basic:
